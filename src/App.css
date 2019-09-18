@@ -1,0 +1,42 @@
+@import "~antd/dist/antd.css";
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+
+.square {
+  background-color: #14bdac;
+  float: left;
+  font-size: 24px;
+  line-height: 25px;
+  height: 28px;
+  padding: 0;
+  text-align: center;
+  width: 28px;
+  border-radius: 0;
+  border-color: #0da192;
+}
+
+.game {
+  flex-direction: row;
+  padding: 0.1em;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cross {
+  color: #545454;
+  font-weight: lighter;
+}
+
+.nought {
+  font-size: 19px;
+  color: beige;
+}
