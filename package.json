@@ -2,7 +2,7 @@
   "name": "tic-tac-toe-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ngankhanh98.github.io/tic-tac-toe-game/",
+  "homepage": "https://ngankhanh98.github.io/tic-tac-toe-game",
   "dependencies": {
     "antd": "^3.23.3",
     "gh-pages": "^2.1.1",
@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
