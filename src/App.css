@@ -20,6 +20,11 @@ body {
 }
 
 .game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-board {
   flex-direction: row;
   padding: 0.1em;
 }
