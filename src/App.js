@@ -75,6 +75,9 @@ class Game extends React.Component {
       xIsNext: !this.state.xIsNext
     });
   }
+  handleClickReset(){
+    this.setState({ history:[{squares:Array(400).fill(null)}], winner: null, xNext: true, stepNumber:0 });
+  }
 
   jumpTo(step) {
     this.setState({
@@ -113,6 +116,7 @@ class Game extends React.Component {
             squares={current.squares}
             onClick={i => this.handleClick(i)}
           />
+          <button onClick={()=> this.handleClickReset()}>RESET THE GAME</button>
         </div>
         <div className="game-info">
           <div>{status}</div>
